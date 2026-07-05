@@ -4,7 +4,7 @@
 [![Built with Packer](https://img.shields.io/badge/built%20with-Packer-blue)](https://www.packer.io/)
 [![Infra: Terraform](https://img.shields.io/badge/infra-Terraform-5f43e9)](https://www.terraform.io/)
 
-# 🧪 Local Infrastructure Lab with Packer & Terraform (libvirt)
+# Local Infrastructure Lab with Packer & Terraform (libvirt)
 
 This repository provides a reusable lab automation framework to build and manage local virtual machines using **Packer** and **Terraform (libvirt)**.
 
@@ -12,7 +12,7 @@ It is designed to serve as the foundation for practicing and testing infrastruct
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 .
@@ -38,7 +38,7 @@ It is designed to serve as the foundation for practicing and testing infrastruct
 ├── Makefile                 # Automation for setup and installation
 └── README.md
 ```
-### 🧩 Detailed Breakdown
+### Detailed Breakdown
 
 - `base/packer/jammy.json`  
   Defines how to build a custom **Ubuntu 22.04 (Jammy Jellyfish)** image using Packer. Includes boot setup, provision scripts, and output settings (e.g., `qcow2` format).
@@ -55,7 +55,7 @@ It is designed to serve as the foundation for practicing and testing infrastruct
 - `labs/minio/`  
     Contains configuration files (e.g., Ansible playbooks, inventory, Terraform) for setting up a MinIO lab environment on local VMs.
     This includes automation scripts to deploy a multi-disk, S3-compatible MinIO cluster using the image built via Packer.
-    ➕ This structure is extensible — additional labs such as ceph/, k8s/, or vault/ can be added in the same way.
+    This structure is extensible — additional labs such as ceph/, k8s/, or vault/ can be added in the same way.
 
 - `Makefile`  
   Provides convenient setup targets:
@@ -65,26 +65,26 @@ It is designed to serve as the foundation for practicing and testing infrastruct
 
 ---
 
-## 📚 Blog Series Scope (In Progress)
+## Blog Series Scope (In Progress)
 
 This repository is currently being initialized and will support a blog series covering:
 
-- 🛠️ **Packer**: Building custom Ubuntu 22.04 VM images using `cloud-init`
-- ⚙️ **Terraform (libvirt)**: Creating and managing local VMs using the `libvirt` provider
+- **Packer**: Building custom Ubuntu 22.04 VM images using `cloud-init`
+- **Terraform (libvirt)**: Creating and managing local VMs using the `libvirt` provider
 
-> 💡 This repo will later be extended with MinIO, Ceph, and Kubernetes lab configurations.
+> This repo will later be extended with MinIO, Ceph, and Kubernetes lab configurations.
 ---
 
 ## Features
 
-- ✅ Automated build of Ubuntu QCOW2 images using Packer (cloud-init enabled)
-- ✅ Local libvirt environment setup and configuration
-- ✅ VM provisioning with Terraform (libvirt provider)
-- ✅ Ready-to-use for MinIO, Ceph, Kubernetes, and more
+- Automated build of Ubuntu QCOW2 images using Packer (cloud-init enabled)
+- Local libvirt environment setup and configuration
+- VM provisioning with Terraform (libvirt provider)
+- Ready-to-use for MinIO, Ceph, Kubernetes, and more
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install System Dependencies
 
@@ -113,7 +113,7 @@ packer build jammy.json
 ```
 
 ⸻
-## 💡 Use Cases
+## Use Cases
 
 This lab environment is ideal for:
 
@@ -125,7 +125,7 @@ The base image built via Packer can be reused across these labs, enabling fast a
 
 ---
 
-## 🔁 Philosophy
+## Philosophy
 
 This repository is built on the following principles:
 
@@ -135,7 +135,7 @@ This repository is built on the following principles:
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 We welcome contributions and ideas!
 
@@ -145,7 +145,7 @@ Feel free to:
 - Extend the lab scenarios (e.g., add new roles or services)  
 - Customize the Makefile tasks to fit your own workflows
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.  
 See [LICENSE](https://github.com/j2eff-we/lab-infra/blob/main/LICENSE) for details.
