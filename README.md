@@ -1,6 +1,6 @@
-[![Build](https://img.shields.io/github/actions/workflow/status/J2eff/lab-infra/ci.yml?branch=main)](https://github.com/J2eff/lab-infra/actions)
-[![License](https://img.shields.io/github/license/J2eff/lab-infra)](https://github.com/J2eff/lab-infra/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/J2eff/lab-infra)](https://github.com/J2eff/lab-infra/commits/main)
+[![Build](https://img.shields.io/github/actions/workflow/status/j2eff-we/lab-infra/ci.yml?branch=main)](https://github.com/j2eff-we/lab-infra/actions)
+[![License](https://img.shields.io/github/license/j2eff-we/lab-infra)](https://github.com/j2eff-we/lab-infra/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/j2eff-we/lab-infra)](https://github.com/j2eff-we/lab-infra/commits/main)
 [![Built with Packer](https://img.shields.io/badge/built%20with-Packer-blue)](https://www.packer.io/)
 [![Infra: Terraform](https://img.shields.io/badge/infra-Terraform-5f43e9)](https://www.terraform.io/)
 
@@ -148,4 +148,4 @@ Feel free to:
 ## 📄 License
 
 This project is licensed under the MIT License.  
-See [LICENSE](https://github.com/J2eff/lab-infra/blob/main/LICENSE) for details.
+See [LICENSE](https://github.com/j2eff-we/lab-infra/blob/main/LICENSE) for details.
